@@ -15,8 +15,3 @@ do
     echo -e "\n"
   ./mbtget/scripts/mbtget -r1 -u 1 -n 10 $ipaddress
 done
-#while [ $COUNTER -lt 1000 ]; do
-#  ./mbtget/scripts/mbtget -r1 -u 1 -n 10 $ipaddress
-#  echo "Heartbeat $COUNTER"
-#  let COUNTER=COUNTER+1
-#done
